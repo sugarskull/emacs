@@ -1,0 +1,45 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "mk/")
+ ("/Users/mk/Code/python/" . "unsorted/")
+ ("/Users/mk/Code/" . "python/")
+ ("/Users/mk/" . "Code/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/mk/Code/python/unsorted/"
+ "/Users/mk/.emacs.d/"
+ "/Users/mk/Desktop/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "rw_visual.py"
+ "rw_visual_lines.py"
+ "init.el"
+ "abbrev_defs"
+ "test.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/mk/Code/python/unsorted/" (22351 48196 0 0) "Untitled.ipynb" "Section2_7-Plotting-with-Pandas.ipynb" "Section2_6-Data-Wrangling-with-Pandas.ipynb" "Section2_5-Introduction-to-Pandas.ipynb" "rw_visual_lines.py" "rw_visual.py" "random_walk.pyc" "random_walk.py" "PycharmProjects/" "PAV_Mathe_Antrag_Bachelorzeugnis.pdf" "pandas.ipynb" "notebook_basics.ipynb" "first_notebook.ipynb" "diveintopython-5.4/" "colorspace.py" "clouds-Copy1.ipynb" "auctex.pdf" "__pycache__/" ".DS_Store" "#rw_visual.py#" "../" "./")
+
+ ("/Users/mk/.emacs.d/" (22351 47922 0 0) "snippets/" "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "abbrev_defs" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Desktop/" (22351 18450 0 0) "mini.vncloc" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/mk/" (22351 23752 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Desktop/" "Code/" "anaconda/" ".Trash/" ".python_history" ".matplotlib/" ".jupyter/" ".ipython/" ".emacs.d/" ".DS_Store" ".continuum/" ".condamanager/" ".conda/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_profile" ".bash_history" ".astropy/" ".anaconda/" "../" "./")
+
+ ("/Users/" (22350 65043 0 0) "Shared/" "mk/" ".localized" "../" "./")
+
+ ("/Users/mk/Code/python/" (22351 18417 0 0) "wimetia/" "unsorted/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Code/" (22351 18354 0 0) "scripts/" "python/" "idl/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
