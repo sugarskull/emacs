@@ -1,0 +1,56 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+%\documentclass[a4paper, 11pt, roman]{europecv}
+\documentclass[a4paper, 11pt, roman]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+
+ \firstname{Michael}
+ \familyname{Klober}
+% \address{Friedhofstrasse 22}{64846 Gross-Zimmern}
+% \phone{06071~618025}
+% \email{Michael.Klober@gmx.de}
+% %\extrainfo{}
+
+\photo[3cm]{bw.jpg}
+\title{Lebenslauf}
+
+\begin{document}
+\makecvtitle
+
+\section{Ausbildung}
+\label{sec:ausbildung}
+\cvcomputer{cat}{prog}{ca}{pro}
+\section{Berufliche Erfahrungen}
+\label{sec:berufl-erfahr}
+\cventry{10/2007--07/2012}{Bachelor-Studium Angewandte
+  Mathematik}{Hochschule Darmstadt}{Darmstadt}{Abschlussnote: 2,6}{}
+\cventry{10/2007--07/2012}{Diplom-Studium Mathematik}{}{}{}{}
+
+\section{Sprachkenntnisse}
+\label{sec:sprachkenntnisse}
+\cvitem{Deutsch}{Muttersprache
+}
+
+\section{Computerkenntnisse}
+\label{sec:computerkenntnisse}
+
+\subsection{Betriebssysteme}
+\label{sec:betriebssysteme}
+
+\cvlistitem{OS X, Linux, Windows 7, Windows XP} 
+
+\section{Hobbys}
+\label{sec:hobbys}
+\cvlistdoubleitem{Programmieren}{Kochen}
+
+\end{document}
+

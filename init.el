@@ -35,6 +35,9 @@
 (load-theme 'material t) ;; load material theme
 (global-linum-mode t) ;; enable line numbers globally
 
+;; disable visual bell
+(setq visible-bell nil)
+
 (elpy-enable)
 (pyvenv-activate "/Users/mk/anaconda")
 ;;(elpy-use-ipython)
@@ -43,8 +46,10 @@
 
 
 ;; AUCTex
-(setenv "PATH" (concat (getenv "PATH") ":/usr/texbin"))
-(setq exec-path (append exec-path '("/usr/texbin")))
+                                        ;":/usr/texbin" ("/usr/texbin" 
+ 
+(setenv "PATH" (concat (getenv "PATH") ":/Library/TeX/texbin/"))
+(setq exec-path (append exec-path '("/Library/TeX/texbin/")))
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq-default TeX-master nil)

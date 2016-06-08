@@ -1,0 +1,11 @@
+ls
+cd/documents
+cd/Documents
+cd documents
+ls
+cd job
+ls
+mkdir latex
+cd latex
+touch bewerbung.tex
+ls

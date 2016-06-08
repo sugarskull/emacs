@@ -1,0 +1,10 @@
+Michaels-MacBook-Pro:.emacs.d mk$ git init
+Initialized empty Git repository in /Users/mk/.emacs.d/.git/
+Michaels-MacBook-Pro:.emacs.d mk$ git remote add origin https://github.com/sugarskull/emacs.git
+
+Michaels-MacBook-Pro:.emacs.d mk$ git add --all
+
+Michaels-MacBook-Pro:.emacs.d mk$ git commit -m 'uploaded emacs.d'
+
+Michaels-MacBook-Pro:.emacs.d mk$ git push origin master
+

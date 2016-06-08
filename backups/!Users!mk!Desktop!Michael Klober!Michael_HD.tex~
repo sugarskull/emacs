@@ -1,0 +1,11 @@
+\input{Vorspann_zentral}
+
+\begin{document}
+	\input{Michael_Inhalt}
+	
+	
+	\bibliographystyle{plain}
+	\bibliography{Literatur_Michael}
+	
+\end{document}
+

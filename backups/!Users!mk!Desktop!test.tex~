@@ -1,0 +1,129 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+%http://stefano.italians.nl/archives/55
+ 
+\documentclass[]{scrlttr2}
+ 
+\usepackage{polyglossia, % Polyglossia: A Babel replacement for XeLaTeX
+                   color,
+                   marvosym, % symbols such as \Telefon, \Mobilefone, \Letter, \Email
+                   }
+ 
+ 
+\setdefaultlanguage{german} 
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+ 
+\usepackage[]{scrpage2}
+ 
+% ==============================================
+%  PERSONAL DATA
+% ==============================================
+ 
+\setkomavar{fromname}{Mark Mustermann}
+\setkomavar{fromaddress}{Musterallee 12}
+\setkomavar{fromphone}{12345678}
+\setkomavar{fromemail}{muster@muster.de}
+\newkomavar{frommobilephone}
+\setkomavar{frommobilephone}{1234567899}
+\newcommand{\vitaetitle}{Lebenslauf}
+ 
+% ==============================================
+%  FORMATTING STUFF
+% ==============================================
+ 
+\renewcommand{\normalsize}{\fontsize{12}{14}\selectfont} 
+ 
+% ==============================================
+%  COLOR STUFF
+% ==============================================
+ 
+\definecolor{lightblue}{rgb}{0.25,0.50,0.75}
+\makeatletter
+\renewcommand*\rule[3][\z@]{\color{lightblue}\@rule[#1]{#2}{#3}\normalcolor}
+\makeatother
+ 
+% ==============================================
+%  HEADER STUFF
+% ==============================================
+ 
+% === header settings
+\setkomavar{firsthead}{
+  \centering
+               {\addfontfeature{LetterSpace=20.0}\fontsize{25}{25}\selectfont\scshape\vitaetitle}
+   \\[2mm]\fontsize{12}{12}\selectfont\scshape{}
+ 
+%  \rule{\useplength{firstheadwidth}}{1pt} 
+  \rule{\textwidth}{1pt} 
+}
+ 
+\chead{%
+{%
+\addfontfeature{LetterSpace=20.0}\fontsize{25}{25}\selectfont\scshape\vitaetitle
+}%
+\\[2mm]\fontsize{12}{12}\selectfont\scshape{}
+\rule{\useplength{firstheadwidth}}{1pt} 
+}
+ 
+ 
+% ==============================================
+%  FOOTER STUFF
+% ==============================================
+ 
+% === footer settings
+\setkomavar{firstfoot}{
+ \centering
+ \addfontfeature{LetterSpace=10.0}\scshape
+\usekomavar{fromname} \textbullet
+	{
+	  \renewcommand{\\}{\ {\textbullet}\ }
+	  \usekomavar{fromaddress}
+	}\\
+	{\Large\Letter} \usekomavar{fromemail} \textbullet {\Large\Telefon} \usekomavar{fromphone} \textbullet {\Large\Mobilefone} \usekomavar{frommobilephone}
+}
+ 
+\cfoot{%
+{%
+ \addfontfeature{LetterSpace=10.0}\scshape
+\usekomavar{fromname} \textbullet
+	{
+	  \renewcommand{\\}{\ {\textbullet}\ }
+	  \usekomavar{fromaddress}
+	}\\
+	{\Large\Letter} \usekomavar{fromemail} \textbullet {\Large\Telefon} \usekomavar{fromphone} \textbullet {\Large\Mobilefone} \usekomavar{frommobilephone}
+ 
+}%
+ 
+}
+ 
+\usepackage{geometry}
+ 
+\geometry{
+includehead,
+includefoot,
+top=\useplength{firstheadvpos},
+bottom=0.9\useplength{firstheadvpos}
+}
+ 
+\setheadwidth{\useplength{firstheadwidth}}
+\setfootwidth{\useplength{firstfootwidth}}
+\pagestyle{scrheadings}
+ 
+ 
+\KOMAoptions{foldmarks=false}
+\KOMAoptions{addrfield=false}
+\date{}
+\setkomavar{signature}{}
+\begin{document}
+\begin{letter}{}
+1. SEITE
+\opening{}
+\closing{}
+\newpage
+2. SEITE
+ 
+\end{letter}
+\end{document}
