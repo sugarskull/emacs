@@ -38,6 +38,15 @@
 ;; disable visual bell
 (setq visible-bell nil)
 
+;; auto close bracket insertion.
+(electric-pair-mode 1)
+;; make electric-pair-mode work on more brackets
+(setq electric-pair-pairs '(
+                            (?\" . ?\")
+                            (?\{ . ?\})
+                            ))
+
+
 (elpy-enable)
 (pyvenv-activate "/Users/mk/anaconda")
 ;;(elpy-use-ipython)
@@ -50,6 +59,10 @@
  
 (setenv "PATH" (concat (getenv "PATH") ":/Library/TeX/texbin/"))
 (setq exec-path (append exec-path '("/Library/TeX/texbin/")))
+
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin/"))
+(setq exec-path (append exec-path '("/usr/local/bin/")))
+
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq-default TeX-master nil)
@@ -60,6 +73,7 @@
 (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (setq reftex-plug-into-AUCTeX t) 
+
 
 
 ;;idl

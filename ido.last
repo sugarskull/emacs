@@ -2,63 +2,99 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/" . "deckblatt/")
+ ("/Users/mk/documents/job/bewerbung/latex/" . "deckblatt-anschreiben-lebenslauf/")
+ ("/Users/mk/Documents/job/bewerbung/Latex/" . "deckblatt-anschreiben-lebenslauf/")
+ ("/Users/mk/Documents/job/bewerbung/" . "Latex/")
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/" . "deckblatt/")
  ("/Users/mk/Downloads/" . "latex-bewerbung-vorlage/")
  ("/Users/mk/Downloads/latex-bewerbung-vorlage/" . "anschreiben/")
- ("/Users/mk/Documents/job/" . "latex/")
+ ("/Users/mk/Documents/job/" . "bewerbung/")
  ("/Users/mk/Documents/" . "job/")
  ("/Users/mk/Desktop/" . "Michael Klober/")
  ("/Users/" . "mk/")
  ("/Users/mk/Code/python/" . "unsorted/")
  ("/Users/mk/Code/" . "python/")
- ("/Users/mk/" . ".emacs.d/")
+ ("/Users/mk/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/deckblatt/"
  "/Users/mk/.emacs.d/"
+ "/Users/mk/Code/python/unsorted/"
+ "/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/deckblatt/"
+ "/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/anschreiben/"
+ "/Users/mk/documents/job/bewerbung/latex/bewerbung_em/"
+ "/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/anschreiben/"
  "/Users/mk/Downloads/latex-bewerbung-vorlage/anschreiben/"
  "/Users/mk/Downloads/latex-bewerbung-vorlage/deckblatt/"
  "/Users/mk/Desktop/"
  "/Users/mk/Documents/job/latex/"
  "/Users/mk/Desktop/Michael Klober/"
- "/Users/mk/Code/python/unsorted/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "testdeck.tex"
  "init.el"
- "anschreiben_text.tex"
- "anschreiben.tex"
- "anschreiben.log"
  "deckblatt.tex"
- "tesa.tex"
- "test.tex"
+ "get_roi.py"
+ "hello.py"
+ "filehandling.py"
+ "rw_visual.py"
+ "rw_visual_lines.py"
+ "anschreiben.tex"
  "bewerbung.tex"
- "Michael_HD.tex"
- "setup_git.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/deckblatt/" (22364 34996 0 0) "testdeck.tex" "testdeck.prv/" "testdeck.pdf" "testdeck.log" "testdeck.aux" "prv_testdeck.log" "deckblatt.tex" "deckblatt.pdf" "deckblatt.out" "deckblatt.log" "deckblatt.aux" "bild.jpg" "auto/" "_region_.tex" "_region_.prv/" "_region_.pdf" "_region_.log" ".DS_Store" "#testdeck.tex#" "../" "./")
+
+ ("/Users/mk/.emacs.d/" (22364 34475 0 0) "snippets/" "places" "init.el" "ido.last" "eshell/" "elpa/" "backups/" "auto-save-list/" "abbrev_defs" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/.emacs.d/elpa/" (22364 33764 0 0) "yasnippet-20160530.1721/" "websocket-20160510.2001/" "swiper-20160531.2212/" "request-20160424.2032/" "pyvenv-20160527.442/" "material-theme-20160516.844/" "ivy-20160529.2351/" "highlight-indentation-20150307.208/" "find-file-in-project-20160515.2254/" "elpy-20160528.1210/" "ein-20160422.629/" "company-20160522.1835/" "cl-generic-0.2/" "better-defaults-20160127.2318/" "auctex-latexmk-20160522.1050/" "auctex-11.89.4/" "archives/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/.emacs.d/elpa/auctex-11.89.4/" (22364 33943 0 0) "toolbar-x.elc" "toolbar-x.el" "texmathp.elc" "texmathp.el" "tex.elc" "tex.el" "tex-wizard.elc" "tex-wizard.el" "tex-style.elc" "tex-style.el" "tex-site.elc" "tex-site.el" "tex-mik.elc" "tex-mik.el" "tex-jp.elc" "tex-jp.el" "tex-info.elc" "tex-info.el" "tex-font.elc" "tex-font.el" "tex-fold.elc" "tex-fold.el" "tex-buf.elc" "tex-buf.el" "tex-bar.elc" "tex-bar.el" "tests/" "style/" "RELEASE" "README.GIT" "README" "prv-xemacs.elc" "prv-xemacs.el" "prv-emacs.elc" "prv-emacs.el" "preview.elc" "preview.el" "preview-latex.info" "plain-tex.elc" "plain-tex.el" "multi-prompt.elc" "multi-prompt.el" "latex.elc" "latex.el" "latex/" "images/" "GNUmakefile" "font-latex.elc" "font-latex.el" "doc/" "dir" "COPYING" "context.elc" "context.el" "context-nl.elc" "context-nl.el" "context-en.elc" "context-en.el" "circ.tex" "ChangeLog.1" "ChangeLog-preview.1" "ChangeLog-preview" "ChangeLog" "build-aux/" "bib-cite.elc" "bib-cite.el" "auctex.info" "auctex.elc" "auctex.el" "auctex-pkg.elc" "auctex-pkg.el" "auctex-autoloads.el" ".elpaignore" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Code/python/unsorted/" (22364 26317 0 0) "untitled3.py" "test_fromgit.py" "notebooks/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/deckblatt/" (22363 52846 0 0) "testdeck.tex" "deckblatt.tex" "deckblatt.pdf" "deckblatt.out" "deckblatt.log" "deckblatt.aux" "bild.jpg" "auto/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Documents/job/bewerbung/Latex/" (22363 52583 0 0) "lebenslauf_moderncv/" "deckblatt-anschreiben-lebenslauf/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/lebenslauf/" (22364 17719 0 0) "lebenslauf.tex" "lebenslauf.pdf" "lebenslauf.out" "lebenslauf.log" "lebenslauf.aux" "auto/" "../" "./")
+
+ ("/Users/mk/documents/job/bewerbung/latex/bewerbung_em/" (22363 51204 0 0) "bewerbung.tex" "bewerbung.pdf" "bewerbung.out" "bewerbung.log" "bewerbung.aux" "auto/" "../" "./")
+
+ ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/anschreiben/" (22362 47502 0 0) "unterschrift.png" "floskeln.tex" "auto/" "anschreiben_text.tex" "anschreiben_text.log" "anschreiben.tex" "anschreiben.pdf" "anschreiben.out" "anschreiben.log" "anschreiben.aux" "../" "./")
+
+ ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/" (22360 5168 0 0) "lebenslauf_straightcv/" "lebenslauf/" "deckblatt/" "anschreiben/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Desktop/" (22362 54214 0 0) "t/" "Bildschirmfoto 2016-06-10 um 16.50.42.png" "Bildschirmfoto 2016-06-10 um 16.50.32.png" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/mk/documents/job/bewerbung/latex/" (22363 49533 0 0) "lebenslauf_moderncv/" "deckblatt-anschreiben-lebenslauf/" "bewerbung_em/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Documents/job/bewerbung/" (22360 30638 0 0) "Vorlagen/" "Unterlagen/" "Lebenslauf/" "Latex/" "Bewerbungen/" "Anschreiben/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Documents/job/" (22362 29879 0 0) "jobcenter_darmstadt/" "bewerbung/" "arbeitsagentur/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/anschreiben/" (22362 47502 0 0) "unterschrift.png" "floskeln.tex" "auto/" "anschreiben_text.tex" "anschreiben_text.log" "anschreiben.tex" "anschreiben.pdf" "anschreiben.out" "anschreiben.log" "anschreiben.aux" "../" "./")
+
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/" (22360 5168 0 0) "lebenslauf_straightcv/" "lebenslauf/" "deckblatt/" "anschreiben/" ".DS_Store" "../" "./")
+
+ ("/Users/mk/Downloads/latex-bewerbung-vorlage/anschreiben/" (22360 29025 0 0) "unterschrift.png" "auto/" "anschreiben_text.tex" "anschreiben_text.log" "anschreiben.tex" "anschreiben.pdf" "anschreiben.out" "anschreiben.log" "anschreiben.aux" "../" "./")
+
  ("/Users/mk/Downloads/" (22360 16825 0 0) "~$-Europass-20160605-Klober-DE.doc" "Vier Einsteigerfehler.pdf" "README" "latex-bewerbung-vorlage/" "europasscv.zip" "CVCTAN.tex" "CVCTAN.pdf" "cvbasic.tex" "currvita-cv.tex" "currvita-cv.pdf" "currvita-cv.log" "currvita-cv.aux" "auto/" "4_4_4_Leseprobe_Anschreiben.pdf" ".localized" ".DS_Store" "../" "./")
-
- ("/Users/mk/Downloads/latex-bewerbung-vorlage/anschreiben/" (22360 17189 0 0) "unterschrift.png" "auto/" "anschreiben_text.tex" "anschreiben_text.log" "anschreiben.tex" "anschreiben.pdf" "anschreiben.out" "anschreiben.log" "anschreiben.aux" "../" "./")
-
- ("/Users/mk/.emacs.d/" (22360 5145 0 0) "snippets/" "places" "init.el" "ido.last" "eshell/" "elpa/" "backups/" "auto-save-list/" "abbrev_defs" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/mk/Desktop/" (22359 10898 0 0) "tesa.tex" "tesa.pdf" "tesa.log" "tesa.aux" "auto/" ".localized" ".DS_Store" "../" "./")
 
  ("/Users/mk/Downloads/latex-bewerbung-vorlage/" (22360 5168 0 0) "lebenslauf_straightcv/" "lebenslauf/" "deckblatt/" "anschreiben/" ".DS_Store" "../" "./")
 
  ("/Users/mk/Downloads/latex-bewerbung-vorlage/deckblatt/" (22359 56863 0 0) "deckblatt.tex" "deckblatt.pdf" "deckblatt.log" "deckblatt.aux" "bild.jpg" "auto/" ".DS_Store" "../" "./")
 
- ("/Users/mk/Documents/job/" (22359 7557 0 0) "Vorlagen/" "Unterlagen/" "Lebenslauf/" "Latex/" "Bewerbungen/" "Anschreiben/" ".DS_Store" "../" "./")
-
  ("/Users/mk/Documents/job/latex/" (22359 7948 0 0) "bw.jpg" "bewerbung.tex" "bewerbung.pdf" "bewerbung.out" "bewerbung.log" "bewerbung.aux" "auto/" ".DS_Store" "../" "./")
 
  ("/Users/mk/Documents/" (22353 59508 0 0) "to read/" "Native Instruments/" "job/" "hda/" "applications/" ".localized" ".DS_Store" "../" "./")
-
- ("/Users/mk/Code/python/unsorted/" (22353 63370 0 0) "xrois.py" "visibility.py" "untitled3.py" "Untitled.ipynb" "teste.py" "test_fromgit.py" "test_b.py" "test.py" "solar_position.py" "sobski.py" "Section2_7-Plotting-with-Pandas.ipynb" "Section2_6-Data-Wrangling-with-Pandas.ipynb" "Section2_5-Introduction-to-Pandas.ipynb" "rw_visual_lines.py" "rw_visual.py" "roi_vec.py" "read_roi_edges_index_list.py" "read_metadata2.py" "random_walk.pyc" "random_walk.py" "PythonIntroduction/" "pandas.ipynb" "notebook_basics.ipynb" "img_grad_vec.py" "hello.py" "get_time_from_filname_test.py" "get_time_from_filename.py" "get_roi.py" "first_notebook.ipynb" "diveintopython-5.4/" "cvtut/" "colorspace.py" "clouds-Copy1.ipynb" "automate_the_boring_stuff/" "20151021.py" ".DS_Store" "../" "./")
 
  ("/Users/mk/Desktop/Michael Klober/" (22037 5873 0 0) "Vorspann_zentral.tex" "texput.log" "Michael_Inhalt.tex" "Michael_Inhalt.log" "Michael_HD.tex" "Michael_HD.synctex.gz" "Michael_HD.pdf" "Michael_HD.out" "Michael_HD.log" "Michael_HD.blg" "Michael_HD.bbl" "Michael_HD.aux" "Literatur_Michael.bib" "../" "./")
 

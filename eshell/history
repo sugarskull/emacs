@@ -9,3 +9,36 @@ mkdir latex
 cd latex
 touch bewerbung.tex
 ls
+cd ~
+ls
+cd .emacs.d
+git status
+git add --all
+git commit -m "disabled visible-bell and installed auctex"
+git status
+git push 
+git push origin master
+git rm -r --cached backups
+git commit -m "removed backups"
+git push origin master
+ls
+cd backups
+ls
+cd .
+cd ..
+git status
+git add
+git add --all
+git status
+git commit -m "test to exclude backup folder from git"
+git push origin master
+cd ~
+conda update conda
+conda update anaconda
+conda update --all
+cd documents/job
+cd latex
+ls
+cd bewerbung/latex
+mkdir bewerbung_em
+ls

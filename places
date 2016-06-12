@@ -1,19 +1,40 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/mk/Downloads/latex-bewerbung-vorlage/anschreiben/anschreiben_text.tex" . 1574)
+(("/Users/mk/"
+  (dired-filename . "/Users/mk/.emacs.d"))
+ ("/Users/mk/.emacs.d/"
+  (dired-filename . "/Users/mk/.emacs.d/init.el"))
+ ("/Users/mk/.emacs.d/init.el" . 1597)
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/_region_.tex" . 224)
+ ("/Users/mk/Desktop/"
+  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie"))
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/data/Fokusstapel/"
+  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/data/Fokusstapel/.."))
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/data/"
+  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/data/.."))
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/"
+  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu"))
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/"
+  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation"))
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/"
+  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober"))
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/"
+  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/Michael_Inhalt.tex"))
+ ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/Michael_Inhalt.tex" . 2706)
+ ("/Users/mk/Desktop/t/testdeck.tex" . 907)
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/deckblatt/testdeck.tex" . 989)
+ ("/Users/mk/.emacs.d/elpa/auctex-11.89.4/preview-latex.info" . 5132)
+ ("/Users/mk/.emacs.d/elpa/auctex-latexmk-20160522.1050/auctex-latexmk-autoloads.el" . 409)
+ ("/Users/mk/Documents/applications/emacs/emacs_configuration.txt" . 1650)
+ ("/Users/mk/Code/python/wimetia/metadata/meta_t.txt" . 752)
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/lebenslauf/lebenslauf.tex" . 4773)
+ ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/anschreiben/anschreiben.tex" . 2717)
+ ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/deckblatt/deckblatt.tex" . 380)
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/anschreiben/anschreiben.tex" . 3093)
+ ("/Users/mk/.emacs.d/.gitignore" . 9)
  ("/Users/mk/Downloads/cvbasic.tex" . 4986)
- ("/Users/mk/Downloads/latex-bewerbung-vorlage/anschreiben/anschreiben.tex" . 6341)
- ("/Users/mk/.emacs.d/init.el" . 919)
- ("/Users/mk/Downloads/latex-bewerbung-vorlage/deckblatt/"
-  (dired-filename . "/Users/mk/Downloads/latex-bewerbung-vorlage/deckblatt/.DS_Store"))
- ("/Users/mk/Downloads/latex-bewerbung-vorlage/deckblatt/deckblatt.tex" . 603)
- ("/Users/mk/Downloads/latex-bewerbung-vorlage/lebenslauf/lebenslauf.tex" . 2116)
  ("/Users/mk/Downloads/currvita-cv.tex" . 3389)
  ("/Users/mk/Downloads/CVCTAN.tex" . 489)
- ("/Users/mk/Desktop/tesa.tex" . 9318)
- ("/Users/mk/.emacs.d/elpa/auctex-latexmk-20160522.1050/auctex-latexmk-autoloads.el" . 409)
  ("/Users/mk/.emacs.d/elpa/auctex-11.89.4/auctex-autoloads.el" . 10317)
- ("/Users/mk/Code/python/unsorted/rw_visual.py" . 382)
- ("/Users/mk/Code/python/unsorted/rw_visual_lines.py" . 233)
  ("/Users/mk/.emacs.d/abbrev_defs" . 2952)
  ("/Users/mk/.emacs.d/elpa/material-theme-20160516.844/material-theme-autoloads.el" . 877)
  ("/Users/mk/.emacs.d/elpa/elpy-20160528.1210/elpy-autoloads.el" . 1046)
