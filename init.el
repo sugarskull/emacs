@@ -33,7 +33,15 @@
 
 (setq inhibit-startup-message t) ;; hide the startup message
 (load-theme 'material t) ;; load material theme
-(global-linum-mode t) ;; enable line numbers globally
+
+;; enable line numbers globally
+(global-linum-mode t) 
+
+; show the current line and column numbers in the stats bar
+(line-number-mode t)
+(column-number-mode t)
+
+
 
 ;; disable visual bell
 (setq visible-bell nil)
@@ -46,16 +54,20 @@
                             (?\{ . ?\})
                             ))
 
-
+;; python
 (elpy-enable)
 (pyvenv-activate "/Users/mk/anaconda")
-;;(elpy-use-ipython)
-;;(setq elpy-rpc-backend "jedi")
+;;(pyvenv-activate "/Users/mk/anaconda/envs/p35/")
+(elpy-use-ipython)
+(setq elpy-rpc-backend "jedi")
 
+;; markdown
+(custom-set-variables
+ '(markdown-command "/usr/local/bin/pandoc"))
 
 
 ;; AUCTex
-                                        ;":/usr/texbin" ("/usr/texbin" 
+                                  
  
 (setenv "PATH" (concat (getenv "PATH") ":/Library/TeX/texbin/"))
 (setq exec-path (append exec-path '("/Library/TeX/texbin/")))
@@ -76,13 +88,6 @@
 
 
 
-;;idl
-(setq idlwave-system-directory "/Applications/exelis/idl84/")
-
-
-
-
-
 (set-language-environment "utf-8")
 (set-default-coding-systems 'utf-8)
 
@@ -92,7 +97,7 @@
 ;;(define-key global-map (kbd "M-5") "[")
 ;;(define-key global-map (kbd "M-6") "]")
 ;;(define-key global-map (kbd "M-7") "\")
-;; init.el ends here
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

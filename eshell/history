@@ -42,3 +42,23 @@ ls
 cd bewerbung/latex
 mkdir bewerbung_em
 ls
+cd .emacs.d
+git status
+git add --all
+git commit -m "added PATH init for preview-latex and electric-pairs in init.el"
+git push origin master
+cd..
+cd ..
+cd .
+cd ..
+brew update
+brew upgrade
+cd code
+cd python
+ls
+cd tutorials
+ls
+mkdir machine_learning
+cd machine_learning/
+touch chapter_1.py
+source activate root

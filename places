@@ -1,50 +1,58 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/mk/"
+(("/Users/mk/.emacs.d/init.el" . 151)
+ ("/Users/mk/.emacs.d/elpa/magit-20160613.649/magit-autoloads.el" . 54145)
+ ("/Users/mk/.emacs.d/elpa/git-commit-20160519.950/git-commit-autoloads.el" . 992)
+ ("/Users/mk/.emacs.d/elpa/with-editor-20160408.201/with-editor-autoloads.el" . 260)
+ ("/Users/mk/.emacs.d/elpa/magit-popup-20160606.1041/magit-popup-autoloads.el" . 260)
+ ("/Users/mk/.emacs.d/elpa/async-20160513.128/async-autoloads.el" . 4113)
+ ("/Users/mk/.emacs.d/elpa/dash-20160605.248/dash-autoloads.el" . 217)
+ ("/Users/mk/Downloads/test.py" . 21)
+ ("/Users/mk/Downloads/ddd.py" . 15)
+ ("/Users/mk/code/python/tutorials/machine_learning/chapter_1.py" . 1318)
+ ("/Users/mk/Documents/applications/emacs/emacs_cheatsheet.md" . 421)
+ ("/Users/mk/Documents/applications/homebrew/homebrew_cheatsheet.md" . 430)
+ ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/lebenslauf/lebenslauf.tex" . 4882)
+ ("/Users/mk/Code/python/nitnit/filehandling.py" . 24)
+ ("/Users/mk/Code/python/nitnit/"
+  (dired-filename . "/Users/mk/Code/python/nitnit/filehandling.py"))
+ ("/Users/mk/Documents/applications/"
+  (dired-filename . "/Users/mk/Documents/applications/el_capitan_setup"))
+ ("/Users/mk/Documents/applications/el_capitan_setup/"
+  (dired-filename . "/Users/mk/Documents/applications/el_capitan_setup/emacs.md"))
+ ("/Users/mk/Documents/applications/el_capitan_setup/emacs.md" . 164)
+ ("/Users/mk/Documents/applications/el_capitan_setup/installation_instructions.md" . 59)
+ ("/Users/mk/.emacs.d/elpa/better-defaults-20160601.1219/better-defaults-autoloads.el" . 1553)
+ ("/Users/mk/.emacs.d/elpa/company-20160611.439/company-autoloads.el" . 8580)
+ ("/Users/mk/.emacs.d/elpa/elpy-20160605.108/elpy-autoloads.el" . 1047)
+ ("/Users/mk/.emacs.d/elpa/find-file-in-project-20160608.2311/find-file-in-project-autoloads.el" . 3977)
+ ("/Users/mk/.emacs.d/elpa/ivy-20160612.34/ivy-autoloads.el" . 3818)
+ ("/Users/mk/.emacs.d/elpa/swiper-20160602.18/swiper-autoloads.el" . 511)
+ ("/Users/mk/.emacs.d/elpa/yasnippet-20160612.620/yasnippet-autoloads.el" . 1597)
+ ("/Users/mk/Documents/"
+  (dired-filename . "/Users/mk/Documents/.."))
+ ("/Users/mk/"
   (dired-filename . "/Users/mk/.emacs.d"))
  ("/Users/mk/.emacs.d/"
   (dired-filename . "/Users/mk/.emacs.d/init.el"))
- ("/Users/mk/.emacs.d/init.el" . 1597)
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/_region_.tex" . 224)
+ ("/Users/mk/.emacs.d/elpa/markdown-mode-20160610.1745/markdown-mode-autoloads.el" . 637)
+ ("/Users/mk/Documents/applications/emacs/"
+  (dired-filename . "/Users/mk/Documents/applications/emacs/emacs_configuration.txt"))
+ ("/Users/mk/Documents/hda/projects/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/Michael_Inhalt.tex" . 130)
  ("/Users/mk/Desktop/"
   (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie"))
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/data/Fokusstapel/"
-  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/data/Fokusstapel/.."))
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/data/"
-  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/data/.."))
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/"
-  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu"))
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/"
-  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation"))
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/"
-  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober"))
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/"
-  (dired-filename . "/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/Michael_Inhalt.tex"))
- ("/Users/mk/Desktop/20150710_Projekt Fokusserie/docu/Dokumentation/Michael Klober/Michael_Inhalt.tex" . 2706)
- ("/Users/mk/Desktop/t/testdeck.tex" . 907)
  ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/deckblatt/testdeck.tex" . 989)
  ("/Users/mk/.emacs.d/elpa/auctex-11.89.4/preview-latex.info" . 5132)
  ("/Users/mk/.emacs.d/elpa/auctex-latexmk-20160522.1050/auctex-latexmk-autoloads.el" . 409)
- ("/Users/mk/Documents/applications/emacs/emacs_configuration.txt" . 1650)
  ("/Users/mk/Code/python/wimetia/metadata/meta_t.txt" . 752)
- ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/lebenslauf/lebenslauf.tex" . 4773)
  ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/anschreiben/anschreiben.tex" . 2717)
  ("/Users/mk/documents/job/bewerbung/latex/deckblatt-anschreiben-lebenslauf/deckblatt/deckblatt.tex" . 380)
  ("/Users/mk/Documents/job/bewerbung/Latex/deckblatt-anschreiben-lebenslauf/anschreiben/anschreiben.tex" . 3093)
  ("/Users/mk/.emacs.d/.gitignore" . 9)
- ("/Users/mk/Downloads/cvbasic.tex" . 4986)
- ("/Users/mk/Downloads/currvita-cv.tex" . 3389)
- ("/Users/mk/Downloads/CVCTAN.tex" . 489)
  ("/Users/mk/.emacs.d/elpa/auctex-11.89.4/auctex-autoloads.el" . 10317)
  ("/Users/mk/.emacs.d/abbrev_defs" . 2952)
  ("/Users/mk/.emacs.d/elpa/material-theme-20160516.844/material-theme-autoloads.el" . 877)
- ("/Users/mk/.emacs.d/elpa/elpy-20160528.1210/elpy-autoloads.el" . 1046)
- ("/Users/mk/.emacs.d/elpa/company-20160522.1835/company-autoloads.el" . 8580)
- ("/Users/mk/.emacs.d/elpa/find-file-in-project-20160515.2254/find-file-in-project-autoloads.el" . 3552)
- ("/Users/mk/.emacs.d/elpa/swiper-20160531.2212/swiper-autoloads.el" . 511)
- ("/Users/mk/.emacs.d/elpa/ivy-20160529.2351/ivy-autoloads.el" . 3539)
  ("/Users/mk/.emacs.d/elpa/highlight-indentation-20150307.208/highlight-indentation-autoloads.el" . 937)
  ("/Users/mk/.emacs.d/elpa/pyvenv-20160527.442/pyvenv-autoloads.el" . 1879)
- ("/Users/mk/.emacs.d/elpa/yasnippet-20160530.1721/yasnippet-autoloads.el" . 1597)
  ("/Users/mk/.emacs.d/elpa/ein-20160422.629/ein-autoloads.el" . 11260)
  ("/Users/mk/.emacs.d/elpa/websocket-20160510.2001/websocket-autoloads.el" . 226)
  ("/Users/mk/.emacs.d/elpa/request-20160424.2032/request-autoloads.el" . 222)
