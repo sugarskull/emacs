@@ -66,7 +66,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/mk/.emacs.d/" (22368 7693 0 0) "snippets/" "request/" "places" "init.el" "ido.last" "eshell/" "elpa/" "backups/" "auto-save-list/" "abbrev_defs" ".gitignore" ".git/" ".DS_Store" "../" "./")
+ ("/Users/mk/.emacs.d/" (22368 11756 0 0) "snippets/" "request/" "places" "init.el" "ido.last" "eshell/" "elpa/" "backups/" "auto-save-list/" "abbrev_defs" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/mk/Downloads/" (22367 63318 0 0) "~$-Europass-20160605-Klober-DE.doc" "test.py" "ddd.py" ".localized" ".DS_Store" "#test.py#" "../" "./")
 
